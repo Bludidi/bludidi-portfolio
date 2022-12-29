@@ -1,10 +1,11 @@
 import React from 'react';
-import '../App.css';
+import './styles/About.css';
 
 const About = () => (
   <>
-    <div className="mid-section">
-      <h3>Welcome</h3>
+    <div className="logo-img" />
+    <div className="mid-section about">
+      <h3>Welcome to about me!</h3>
     </div>
   </>
 );
