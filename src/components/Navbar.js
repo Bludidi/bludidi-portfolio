@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import '../App.css';
+import './Navbar.css';
 
 const Navbar = () => (
   <header className="top-section d-flex">
