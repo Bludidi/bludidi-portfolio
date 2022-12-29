@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Projects = () => (
-  <section className="mid-section">
+  <div className="mid-section">
     <h3>Welcome</h3>
-  </section>
+  </div>
 );
 
 export default Projects;

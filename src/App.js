@@ -1,14 +1,15 @@
 /* eslint-disable */
-import { Routes, Route } from "react-router-dom";
-import "./App.css";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Projects from "./components/Projects";
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import Projects from './components/Projects';
 
-const App = () => (
-  <>
-    <main>
+function App() {
+  return (
+    <div className="App">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -16,8 +17,8 @@ const App = () => (
         <Route path="About" element={<About />} />
         <Route path="Contact" element={<Contact />} />
       </Routes>
-    </main>
-  </>
-);
+    </div>
+  );
+  }
 
 export default App;
