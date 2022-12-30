@@ -1,10 +1,17 @@
-.home {
-  background-color: brown;
-}
-
 .logo-img {
   background: url("../../images/bludidi_logo1.png") no-repeat center;
   background-size: contain;
-  width: 15%;
-  height: 15vh;
+  /* width: 25%;
+  height: 25vh; */
+}
+
+.main-home {
+  background-image: url("../../images/portfolio4.png");
+  background-size: cover;
+  width: 99.1vw;
+  height: 99.1vh;
+}
+
+.d-flex {
+  display: flex;
 }

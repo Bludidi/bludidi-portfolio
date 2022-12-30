@@ -3,9 +3,17 @@ import './styles/Home.css';
 
 const Home = () => (
   <>
-    <div className="logo-img" />
-    <div className="mid-section home">
-      <h3>Welcome to Home!</h3>
+    <div className="main main-home d-flex">
+      <div className="logo-img" />
+      <div className="home-text welcome">
+        <p className="home-pgraph">
+          HI THERE!
+          <br />
+          I&#39;m
+          <span className="f-name"> Brian</span>
+          <span className="l-name"> Ludidi</span>
+        </p>
+      </div>
     </div>
   </>
 );

@@ -5,24 +5,41 @@ color: #d1cfcf;
 
 .navigation {
   display: flex;
-  background-color: rgb(9, 141, 108);
+  background-color: rgb(51, 50, 50);
   gap: 4%;
-  margin-right: 50px;
   align-items: center;
   justify-content: end;
   width: 100%;
   height: 6vh;
-  border-bottom: solid 1px #000;
+  border-bottom: solid 1px #fff;
 }
 
 .link {
   color: #fff;
+  font-size: 16px;
   text-decoration: none;
-  margin-right: 4%;
+  margin-right: 2%;
+}
+
+.bbl {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8em;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-right: 20em;
+}
+
+.link:hover {
+  font-size: 1em;
+  border: solid 1px #fff;
+  padding: 10px;
 }
 
 .link:active {
   color: #000;
+  font-size: 1.2em;
+  border: solid 1px #fff;
+  padding: 10px;
 }
 
 .logo {
