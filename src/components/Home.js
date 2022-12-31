@@ -7,12 +7,18 @@ const Home = () => (
       <div className="logo-img" />
       <div className="home-text welcome">
         <p className="home-pgraph">
-          HI THERE!
+          <b className="bold">
+            HI THERE,
+            <br />
+            I&#39;m
+            <span className="f-name"> Brian</span>
+            <span className="l-name">Ludidi</span>
+            ,
+          </b>
           <br />
-          I&#39;m
-          <span className="f-name"> Brian</span>
-          <span className="l-name"> Ludidi</span>
+          a Web Developer from Cape Town, South Africa.
         </p>
+        <div className="pic" />
       </div>
     </div>
   </>
