@@ -3,7 +3,7 @@ import './styles/footer.css';
 
 const Footer = () => (
   <div className="footer">
-    <p>This is some content in sticky footer</p>
+    <p>Created and Designed by Bludidi 2023 &#169; Copy Rights Reserved. </p>
   </div>
 );
 
