@@ -70,6 +70,7 @@ h2 {
   border-radius: 8px;
   cursor: pointer;
   box-shadow: 5px 5px 5px #B03B83;
+  margin-top: 20px;
 }
 
 .get-intouch:hover {
