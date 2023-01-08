@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './footer';
 import './styles/Home.css';
 
 const Home = () => (
@@ -29,6 +30,7 @@ const Home = () => (
         </div>
       </div>
     </div>
+    <Footer />
   </>
 );
 

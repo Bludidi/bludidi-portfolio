@@ -1,11 +1,12 @@
 import React from 'react';
+import Footer from './footer';
 import './styles/Contact.css';
 
 const Contact = () => (
   <>
     <div className="contact">
-      <div className="logo-img" />
-      <div className="mid-section contact">
+      <div className="mid-section">
+        <div className="logo-img" />
         <div className="contact-div">
           <h2 className="contactme">CONTACT ME</h2>
           <p className="contact-info">
@@ -52,6 +53,7 @@ const Contact = () => (
         </div>
       </div>
     </div>
+    <Footer />
   </>
 );
 
