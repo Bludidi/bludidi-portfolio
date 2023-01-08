@@ -3,7 +3,7 @@ import './styles/footer.css';
 
 const Footer = () => (
   <div className="footer">
-    <p>Created and Designed by Bludidi 2023 &#169; Copy Rights Reserved. </p>
+    <p>Created and Designed by Bludidi, Copyright &#169; 2023, All rights reserved.</p>
   </div>
 );
 
