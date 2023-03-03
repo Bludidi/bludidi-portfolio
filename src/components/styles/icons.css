@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.socials {
+  /* display: block; */
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-items: center;
+}
+
+.socials:hover {
+  width: 40px;
+  height: 40px;
+}
+
+.social-icons {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  width: 100vw;
+  height: 50px;
+  column-gap: 1.5em;
+  padding-top: 0.6em;
+}

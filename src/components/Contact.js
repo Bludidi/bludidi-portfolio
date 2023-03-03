@@ -1,4 +1,5 @@
 import React from 'react';
+import Icons from './icons';
 import Footer from './footer';
 import './styles/Contact.css';
 
@@ -6,6 +7,7 @@ const Contact = () => (
   <>
     <div className="contact">
       <div className="mid-section">
+        <Icons />
         <div className="logo-img" />
         <div className="contact-div">
           <h2 className="contactme">CONTACT ME</h2>

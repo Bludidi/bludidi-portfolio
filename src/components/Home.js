@@ -1,16 +1,14 @@
 import React from 'react';
-import Footer from './footer';
+import '@fortawesome/fontawesome-free/css/all.css';
 import './styles/Home.css';
+import './styles/icons.css';
+import Icons from './icons';
+import Footer from './footer';
 
 const Home = () => (
   <>
     <div className="home">
-      <ul className="socials">
-        <li><a href="Home">T</a></li>
-        <li><a href="Projects">G</a></li>
-        <li><a href="About">M</a></li>
-        <li><a href="Contact">A</a></li>
-      </ul>
+      <Icons />
       <div className="main main-home d-flex">
         <div className="logo-img" />
         <div className="home-text welcome">
@@ -24,7 +22,9 @@ const Home = () => (
               ,
             </b>
             <br />
-            a Web Developer from Cape Town, South Africa.
+            a full-stack software developer from Cape Town, South Africa.
+            <br />
+            Let us talk, and see what I can do with your project.
           </p>
           <div className="pic" />
         </div>
