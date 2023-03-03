@@ -6,8 +6,8 @@ import './styles/Contact.css';
 const Contact = () => (
   <>
     <div className="contact">
+      <Icons />
       <div className="mid-section">
-        <Icons />
         <div className="logo-img" />
         <div className="contact-div">
           <h2 className="contactme">CONTACT ME</h2>
@@ -19,16 +19,16 @@ const Contact = () => (
             simple slide a message below.
           </p>
           <form
-            action="https://formspree.io/f/form"
-            method="post"
+            action="https://formspree.io/f/xoqbekvb"
+            method="POST"
             id="form"
             className="contact-form form-item"
           >
             <input
               className="contact_input one_line"
               type="text"
-              placeholder="username"
-              name="username"
+              placeholder="Your name"
+              name="Name"
               maxLength="30"
               required
             />
@@ -36,8 +36,8 @@ const Contact = () => (
             <input
               className="contact_input one_line"
               type="email"
-              placeholder="Enter email"
-              name="email"
+              placeholder="Enter your email"
+              name="Email"
               required
             />
 
@@ -45,11 +45,12 @@ const Contact = () => (
               className="message contact_input"
               placeholder="Write your message here"
               maxLength="500"
+              name="Message"
               required
             />
 
             <button className="get-intouch btn1" type="submit">
-              Get in touch
+              Send message
             </button>
           </form>
         </div>

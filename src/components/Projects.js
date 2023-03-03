@@ -1,15 +1,14 @@
 import React from 'react';
 import Footer from './footer';
 import Icons from './icons';
+import ProjectCards from '../myProjects';
 import './styles/Projects.css';
 
 const Projects = () => (
   <>
     <Icons />
     <div className="logo-img" />
-    <div className="mid-section projects">
-      <h3>Welcome to Projects</h3>
-    </div>
+    <ProjectCards />
     <Footer />
   </>
 );
