@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import myImage from './images/ProjectsImages/tdl.png';
+import myImage from '../images/ProjectsImages/tdl.png';
 
 class ProjectCards extends Component {
   constructor(props) {
@@ -12,7 +12,7 @@ class ProjectCards extends Component {
           name: 'To-Do List',
           affiliation: 'Microverse project',
           image: myImage,
-          summary: '',
+          summary: 'This app helps users to keep track of daily tasks. Users are able to add, edit and remove tasks.',
           fullDescription: '',
           techAndTools: [],
           liveLink: '',
@@ -38,7 +38,11 @@ class ProjectCards extends Component {
               <div>
                 <h3 className="card-header">{elem.name}</h3>
                 <img src={elem.image} alt={elem.name} />
-                <p>{elem.summary}</p>
+                <div className="project-summary">
+                  <span>Summary:</span>
+                  <p>{elem.summary}</p>
+                </div>
+                <br />
               </div>
               <div className="card-btns-div">
                 <button type="button" className="card-btns">Live</button>
