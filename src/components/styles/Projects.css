@@ -1,10 +1,58 @@
-.projects {
-  background-color: chartreuse;
+* {
+  box-sizing: border-box;
 }
 
-.logo-img {
-  background: url("../../images/bludidi_logo1.png") no-repeat center;
-  background-size: contain;
-  width: 15%;
-  height: 15vh;
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 8em;
+  padding: 2em;
+  width: 100vw;
+  height: auto;
 }
+
+.project-cards {
+  width: 100%;
+  height: 100%;
+  padding: 0.6em;
+  border: 1px solid #B03B83;
+}
+
+.card-btns-div {
+  display: flex;
+  justify-content: center;
+  column-gap: 1.2em;
+}
+
+.card-btns {
+  width: 6em;
+  height: 2em;
+  color: #B03B83;
+  border: 1px solid #B03B83;
+  border-radius: 5px;
+}
+
+.card-btns:hover {
+  width: 6.2em;
+  height: 2em;
+  color: #fff;
+  background-color: #B03B83;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-header {
+  color: #B03B83;
+}
+
+.project-number {
+  color: #fff;
+  background-color: #B03B83;
+  padding-left: 20px;
+}
+
+/* .project-image {
+  width: 4em;
+  height: 2em;
+} */
