@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import myImage from '../images/ProjectsImages/tdl.png';
+import myImage1 from '../images/ProjectsImages/pc2.png';
 
 class ProjectCards extends Component {
   constructor(props) {
@@ -13,6 +14,18 @@ class ProjectCards extends Component {
           affiliation: 'Microverse project',
           image: myImage,
           summary: 'This app helps users to keep track of daily tasks. Users are able to add, edit and remove tasks.',
+          fullDescription: '',
+          techAndTools: [],
+          liveLink: '',
+          sourceLink: '',
+          complexity: '',
+        },
+        {
+          id: 2,
+          name: 'CRYPTO HOME',
+          affiliation: 'Microverse project',
+          image: myImage1,
+          summary: 'CRYPTO HOME is a web based app built with React-Redux and is using CoinApp API to give data about crypto currencies.',
           fullDescription: '',
           techAndTools: [],
           liveLink: '',
@@ -37,7 +50,9 @@ class ProjectCards extends Component {
               </div>
               <div>
                 <h3 className="card-header">{elem.name}</h3>
-                <img src={elem.image} alt={elem.name} />
+                <div>
+                  <img src={elem.image} alt={elem.name} className="project-image" />
+                </div>
                 <div className="project-summary">
                   <span>Summary:</span>
                   <p>{elem.summary}</p>
