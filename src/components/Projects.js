@@ -6,10 +6,12 @@ import './styles/Projects.css';
 
 const Projects = () => (
   <>
-    <Icons />
-    <div className="logo-img" />
-    <ProjectCards />
-    <Footer />
+    <div className="container">
+      <Icons />
+      <div className="logo-img" />
+      <ProjectCards />
+      <Footer />
+    </div>
   </>
 );
 
