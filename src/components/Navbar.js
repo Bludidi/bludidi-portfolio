@@ -4,19 +4,19 @@ import './styles/Navbar.css';
 const Navbar = () => (
   <header className="top-section d-flex">
     <nav className="navigation">
-      <NavLink>
+      <span className="d-flex nav-text">
         <span className="bbl">BBL</span>
-      </NavLink>
-      <NavLink to="/" className="d-flex nav-text link">
+      </span>
+      <NavLink to="/" exact className="d-flex nav-text link" activeClassName="active">
         Home
       </NavLink>
-      <NavLink to="/Projects" className="d-flex nav-text link">
+      <NavLink to="/Projects" className="d-flex nav-text link" activeClassName="active">
         Projects
       </NavLink>
-      <NavLink to="/About" className="d-flex nav-text link">
+      <NavLink to="/About" className="d-flex nav-text link" activeClassName="active">
         About
       </NavLink>
-      <NavLink to="/Contact" className="d-flex nav-text link">
+      <NavLink to="/Contact" className="d-flex nav-text link" activeClassName="active">
         Contact
       </NavLink>
     </nav>

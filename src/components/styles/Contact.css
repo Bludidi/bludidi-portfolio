@@ -58,7 +58,7 @@ h2 {
 
 .message {
   height: 15vh;
-  font-size: 1.4em;
+  font-size: 1em;
 }
 
 .get-intouch {
@@ -74,10 +74,9 @@ h2 {
 }
 
 .get-intouch:hover {
-  width: 7.7em;
   background-color: #B03B83;
-  font-size: 1.1em;
-  color: #fff;
+  font-size: 1em;
+  color: #ffffff;
   border-radius: 6px;
   box-shadow: none;
   box-shadow: 5px 5px 5px hsl(320, 2%, 33%);

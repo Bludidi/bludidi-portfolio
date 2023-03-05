@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import myImage from '../images/ProjectsImages/tdl.png';
 import myImage1 from '../images/ProjectsImages/pc2.png';
+import myImage2 from '../images/ProjectsImages/pc3.png';
 
 class ProjectCards extends Component {
   constructor(props) {
@@ -26,6 +27,18 @@ class ProjectCards extends Component {
           affiliation: 'Microverse project',
           image: myImage1,
           summary: 'CRYPTO HOME is a web based app built with React-Redux and is using CoinApp API to give data about crypto currencies.',
+          fullDescription: '',
+          techAndTools: [],
+          liveLink: '',
+          sourceLink: '',
+          complexity: '',
+        },
+        {
+          id: 3,
+          name: "Space Traveller's Hub",
+          affiliation: 'Microverse project',
+          image: myImage2,
+          summary: "Space Traveller's is a website where a user can reserve a rocket or dragon, they can also join missions. All of the data present in the site is from SpaceX API.",
           fullDescription: '',
           techAndTools: [],
           liveLink: '',
