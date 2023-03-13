@@ -58,11 +58,11 @@ class ProjectCards extends Component {
           myProjects.map((elem) => (
             <div key={elem.id} className="project-cards">
               <div className="project-number">
-                Project:&nbsp;
                 {elem.id}
+                .&nbsp;
+                {elem.name}
               </div>
               <div>
-                <h3 className="card-header">{elem.name}</h3>
                 <div>
                   <img src={elem.image} alt={elem.name} className="project-image" />
                 </div>

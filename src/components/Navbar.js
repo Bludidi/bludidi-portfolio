@@ -5,7 +5,7 @@ const Navbar = () => (
   <header className="top-section d-flex">
     <nav className="navigation">
       <span className="d-flex nav-text">
-        <span className="bbl">BBL</span>
+        <span className="bbl">&lt;BL /&gt;</span>
       </span>
       <NavLink to="/" exact className="d-flex nav-text link" activeClassName="active">
         Home
