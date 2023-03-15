@@ -4,13 +4,14 @@ import './styles/Home.css';
 import './styles/icons.css';
 import Icons from './icons';
 import Footer from './footer';
+import profilePic from '../images/profile-pic.jpg';
 
 const Home = () => (
   <>
     <div className="home">
       <Icons />
+      <div className="logo-img" />
       <div className="main main-home d-flex">
-        <div className="logo-img" />
         <div className="home-text welcome">
           <p className="home-pgraph">
             <b className="bold">
@@ -26,7 +27,9 @@ const Home = () => (
             <br />
             Let us talk, and see what I can do with your project.
           </p>
-          <div className="pic" />
+        </div>
+        <div className="pics">
+          <img src={profilePic} alt="profile" className="pic" />
         </div>
       </div>
     </div>
