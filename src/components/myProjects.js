@@ -94,15 +94,15 @@ class ProjectCards extends Component {
       <div className="projects-container">
         {
           myProjects.map((elem) => (
-            <div key={elem.id} className="project-cards">
-              <div className="project-number">
+            <div key={elem.index} className="project-cards">
+              <a href="#"><div className="project-number">
                 {elem.id}
                 .&nbsp;
                 {elem.name}
-              </div>
+              </div></a>
               <div>
                 <div>
-                  <img src={elem.image} alt={elem.name} className="project-image" />
+                  <a href="#"><img src={elem.image} alt={elem.name} className="project-image" /></a>
                 </div>
                 <div className="project-summary">
                   <span><b>Summary:</b></span>

@@ -48,25 +48,25 @@ html {
 .card-btns-div {
   display: flex;
   justify-content: center;
-  column-gap: 1.2em;
+  column-gap: 0.8em;
 }
 
 .card-btns {
-  width: 6em;
-  height: 2em;
+  width: 7em;
+  height: 2.5em;
   color: #B03B83;
   border: 1px solid #f0f0f0;
-  border-radius: 5px;
+  border-radius: 3px;
   box-shadow: 0 0 7px 1px rgba(46, 46, 48, 0.61);
 }
 
 .card-btns:hover {
-  width: 6.2em;
-  height: 2em;
+  width: 7.2em;
+  /* height: 2em; */
   color: #fff;
   background-color: #B03B83;
   box-shadow: 0 0 7px 1px rgba(46, 46, 48, 0.61);
-  border-radius: 5px;
+  /* border-radius: 5px; */
   cursor: pointer;
 }
 
@@ -96,4 +96,8 @@ html {
   width: 100%;
   height: 100%;
   margin-top: 1.5em;
+}
+
+a {
+  text-decoration: none;
 }
