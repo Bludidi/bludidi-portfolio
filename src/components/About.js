@@ -1,5 +1,6 @@
 import React from 'react';
 import Icons from './icons';
+import Modal from './modal';
 import './styles/About.css';
 
 const About = () => (
@@ -9,6 +10,7 @@ const About = () => (
     <div className="mid-section about">
       <h3>Welcome to about me!</h3>
     </div>
+    <Modal />
   </>
 );
 

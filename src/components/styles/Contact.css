@@ -15,7 +15,7 @@ html {
   background-image: url("../../images/bg_cp.jpg");
   background-size:cover;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   font-family: 'Poppins', sans-serif;
   background-repeat: no-repeat;
 }
@@ -23,6 +23,7 @@ html {
 .mid-section {
   margin: 0;
   padding-top: 30px;
+  width: 100%;
 }
 
 .contact-div {
@@ -51,10 +52,13 @@ h2 {
 
 .contact_input {
   width: 25vw;
-  border: solid 1px #B03B83;
+  border: solid 1px #b03b8336;
   border-radius: 5px;
-  font-size: 1em;
-  padding: 5px;
+  font-size: 0.8em;
+  padding: 0.8em;
+  background-color: #ffffffa4;
+  box-shadow: 0 0 7px 3px rgba(48, 46, 48, 0.61);
+
 }
 
 .one_line {
@@ -63,19 +67,19 @@ h2 {
 
 .message {
   height: 15vh;
-  font-size: 1em;
+  /* font-size: 1em; */
 }
 
 .get-intouch {
   width: auto;
   height: 5vh;
-  color: #B03B83;
+  color: #b03b83;
   font-size: 1em;
-  border: solid 1px #B03B83;
+  border: solid 1px #b03b8336;
   border-radius: 8px;
   cursor: pointer;
   box-shadow: 5px 5px 5px #B03B83;
-  margin-top: 20px;
+  margin: 2em 0 3em 0;
 }
 
 .get-intouch:hover {

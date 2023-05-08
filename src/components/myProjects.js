@@ -111,8 +111,8 @@ class ProjectCards extends Component {
                 <br />
               </div>
               <div className="card-btns-div">
-                <button type="button" className="card-btns">Live</button>
-                <button type="button" className="card-btns">Source</button>
+                <button type="button" className="card-btns">LIVE</button>
+                <button type="button" className="card-btns">SOURCE CODE</button>
               </div>
             </div>
           ))
