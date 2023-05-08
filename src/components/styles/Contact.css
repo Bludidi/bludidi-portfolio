@@ -70,6 +70,10 @@ h2 {
   /* font-size: 1em; */
 }
 
+.italic-placeholder::placeholder {
+  font-style: italic;
+}
+
 .get-intouch {
   width: auto;
   height: 5vh;

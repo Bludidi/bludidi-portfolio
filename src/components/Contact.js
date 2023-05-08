@@ -25,7 +25,7 @@ const Contact = () => (
             className="contact-form form-item"
           >
             <input
-              className="contact_input one_line"
+              className="contact_input one_line italic-placeholder"
               type="text"
               placeholder="Your name"
               name="Name"
@@ -34,7 +34,7 @@ const Contact = () => (
             />
 
             <input
-              className="contact_input one_line"
+              className="contact_input one_line italic-placeholder"
               type="email"
               placeholder="Enter your email"
               name="Email"
@@ -42,7 +42,7 @@ const Contact = () => (
             />
 
             <textarea
-              className="message contact_input"
+              className="message contact_input italic-placeholder"
               placeholder="Write your message here"
               maxLength="500"
               name="Message"

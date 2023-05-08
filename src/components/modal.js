@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import ProjectCards from './myProjects';
 
 const MyModal = () => {
@@ -29,4 +30,13 @@ function Modal({ myProjects, setShowModal }) {
   );
 }
 
+Modal.propTypes = {
+  myProjects: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      // add more properties here as needed
+    }),
+  ).isRequired,
+  setShowModal: PropTypes.func.isRequired,
+};
 export default MyModal;
