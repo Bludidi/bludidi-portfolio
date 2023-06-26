@@ -6,15 +6,17 @@ html {
 }
 
 .logo-img {
-  background: url("../../images/bludidi_logo1.png") no-repeat center;
+  background: url('../../images/bludidi_logo1.png') no-repeat center;
   background-size: contain;
   width: 15%;
   height: 15vh;
 }
+
 .contact {
-  background-image: url("../../images/bg_cp.jpg");
-  background-size:cover;
+  background-image: url('../../images/bg_cp.jpg');
+  background-size: cover;
   width: 100%;
+
   /* height: 100vh; */
   font-family: 'Poppins', sans-serif;
   background-repeat: no-repeat;
@@ -58,7 +60,6 @@ h2 {
   padding: 0.8em;
   background-color: #ffffffa4;
   box-shadow: 0 0 7px 3px rgba(48, 46, 48, 0.61);
-
 }
 
 .one_line {
@@ -67,6 +68,7 @@ h2 {
 
 .message {
   height: 15vh;
+
   /* font-size: 1em; */
 }
 
@@ -82,14 +84,14 @@ h2 {
   border: solid 1px #b03b8336;
   border-radius: 8px;
   cursor: pointer;
-  box-shadow: 5px 5px 5px #B03B83;
+  box-shadow: 5px 5px 5px #b03b83;
   margin: 2em 0 3em 0;
 }
 
 .get-intouch:hover {
-  background-color: #B03B83;
+  background-color: #b03b83;
   font-size: 1em;
-  color: #ffffff;
+  color: #fff;
   border-radius: 6px;
   box-shadow: none;
   box-shadow: 5px 5px 5px hsl(320, 2%, 33%);
