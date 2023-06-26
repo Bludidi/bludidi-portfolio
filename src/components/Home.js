@@ -3,7 +3,7 @@ import '@fortawesome/fontawesome-free/css/all.css';
 import './styles/Home.css';
 import './styles/icons.css';
 import Icons from './icons';
-import Footer from './footer';
+// import Footer from './footer';
 import profilePic from '../images/profile-pic.jpg';
 
 const Home = () => (
@@ -33,7 +33,7 @@ const Home = () => (
         </div>
       </div>
     </div>
-    <Footer />
+    {/* <Footer /> */}
   </>
 );
 
