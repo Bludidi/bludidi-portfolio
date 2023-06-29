@@ -2,14 +2,14 @@ import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.css';
 import './styles/Home.css';
 import './styles/icons.css';
-import Icons from './icons';
-// import Footer from './footer';
+// import Projects from './Projects';
+// import About from './About';
+// import Contact from './Contact';
 import profilePic from '../images/profile-pic.jpg';
 
 const Home = () => (
   <>
     <div className="home">
-      <Icons />
       <div className="logo-img" />
       <div className="main main-home d-flex">
         <div className="home-text welcome">
@@ -33,7 +33,6 @@ const Home = () => (
         </div>
       </div>
     </div>
-    {/* <Footer /> */}
   </>
 );
 

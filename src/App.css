@@ -3,4 +3,10 @@
 } */
 .App {
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.view-port {
+  margin-left: 10vw;
 }
