@@ -20,7 +20,7 @@ const Home = () => (
             </b>
             <br />
             a full-stack software developer from Cape Town, South Africa.
-            <br />
+            {/* <br /> */}
             Let us talk, and see what I can do with your project.
           </p>
         </div>

@@ -16,12 +16,13 @@ html {
 }
 
 .home {
-  background-image: url('../../images/portfolio4.png');
+  background-image: url('../../images/PageImages/bg4.jpg');
   background-size: cover;
-  /* width: 100%; */
+  align-items: center;
+  justify-content: center;
   height: 100vh;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.4em;
+  font-size: 1em;
   padding: 10% 1em;
 }
 
@@ -39,10 +40,11 @@ html {
 }
 
 .bold {
-  font-size: 2em;
+  font-size: 1.2rem;
 }
 
 .home-text {
+  width: 80%;
   margin: 2em 0 0 4em;
   padding-right: 2em;
 }
@@ -54,8 +56,9 @@ ul {
 }
 
 .pics {
-  width: 25%;
-  height: 30%;
+  width: 20%;
+  height: 100%;
+  margin: 2em 0 0 0;
 }
 
 .pic {
@@ -74,8 +77,15 @@ ul {
   display: flex;
 }
 
-.main {
+.main-home {
   display: flex;
-  margin: 0;
-  gap: 4em;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 3em 1em 0;
+  /* gap: 2em; */
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.22);
 }
+
