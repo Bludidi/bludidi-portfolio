@@ -19,9 +19,13 @@ const Home = () => (
               ,
             </b>
             <br />
-            a full-stack software developer from Cape Town, South Africa.
-            {/* <br /> */}
-            Let us talk, and see what I can do with your project.
+            a budding full-stack software developer based in Cape
+            Town, South Africa. Passionate about coding and problem-solving, I&apos;m
+            eager to bring my fresh perspective and enthusiasm to your projects.
+            <br />
+            <br />
+            Let&apos;s connect and explore how I can contribute to your projects.
+            Looking forward to chatting with you.
           </p>
         </div>
         <div className="pics">

@@ -22,7 +22,7 @@ html {
   justify-content: center;
   height: 100vh;
   font-family: 'Poppins', sans-serif;
-  font-size: 1em;
+  font-size: medium;
   padding: 10% 1em;
 }
 
@@ -85,7 +85,7 @@ ul {
   margin: 0 auto;
   padding: 0 3em 1em 0;
   /* gap: 2em; */
-  border-radius: 20px;
+  /* border-radius: 20px; */
   background-color: rgba(255, 255, 255, 0.22);
 }
 
