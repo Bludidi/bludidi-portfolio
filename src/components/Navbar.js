@@ -11,7 +11,7 @@ const Navbar = () => (
       className="d-flex nav-text link"
       activeClassName="active"
     >
-      <AiIcons.AiFillHome className="icon" />
+      <AiIcons.AiFillHome size={30} />
       <span className="nav-link-name">HOME</span>
     </NavLink>
     <NavLink
@@ -19,7 +19,7 @@ const Navbar = () => (
       className="d-flex nav-text link"
       activeClassName="active"
     >
-      <FaIcons.FaRegFolderOpen className="icon" />
+      <FaIcons.FaRegFolderOpen size={30} />
       <span className="nav-link-name">PROJECTS</span>
     </NavLink>
     <NavLink
@@ -27,7 +27,7 @@ const Navbar = () => (
       className="d-flex nav-text link"
       activeClassName="active"
     >
-      <FaIcons.FaInfoCircle className="icon" />
+      <FaIcons.FaInfoCircle size={30} />
       <span className="nav-link-name">ABOUT</span>
     </NavLink>
     <NavLink
@@ -35,9 +35,21 @@ const Navbar = () => (
       className="d-flex nav-text link"
       activeClassName="active"
     >
-      <AiIcons.AiOutlineMail className="icon" />
+      <AiIcons.AiOutlineMail size={30} />
       <span className="nav-link-name">CONTACT</span>
     </NavLink>
+    <br />
+    <div style={{ textAlign: 'center', color: '#fff' }}>
+      <hr />
+      <em>My Socials</em>
+      <hr />
+    </div>
+    {/* <br /> */}
+    <div className="my-socials">
+      <a href="https://github.com/Bludidi" aria-label="GitHub"><FaIcons.FaGithub size={25} className="my-social-icons" /></a>
+      <a href="https://twitter.com/@BB_Ludidi" aria-label="Twitter"><FaIcons.FaTwitter size={25} className="my-social-icons" /></a>
+      <a href="https://linkedin.com/in/brian-ludidi" aria-label="LinkedIn"><AiIcons.AiOutlineLinkedin size={25} className="my-social-icons" /></a>
+    </div>
   </nav>
 );
 

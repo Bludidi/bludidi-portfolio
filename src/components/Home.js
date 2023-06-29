@@ -2,16 +2,12 @@ import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.css';
 import './styles/Home.css';
 import './styles/icons.css';
-// import Projects from './Projects';
-// import About from './About';
-// import Contact from './Contact';
 import profilePic from '../images/profile-pic.jpg';
 
 const Home = () => (
   <>
     <div className="home">
-      <div className="logo-img" />
-      <div className="main main-home d-flex">
+      <div className="main main-home">
         <div className="home-text welcome">
           <p className="home-pgraph">
             <b className="bold">

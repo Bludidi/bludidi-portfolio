@@ -19,10 +19,10 @@ html {
   background-image: url('../../images/portfolio4.png');
   background-size: cover;
   /* width: 100%; */
-  height: 90vh;
+  height: 100vh;
   font-family: 'Poppins', sans-serif;
   font-size: 1.4em;
-  padding-right: 1em;
+  padding: 10% 1em;
 }
 
 /* a {
@@ -75,6 +75,7 @@ ul {
 }
 
 .main {
+  display: flex;
   margin: 0;
   gap: 4em;
 }

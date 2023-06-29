@@ -8,5 +8,6 @@
 }
 
 .view-port {
-  margin-left: 10vw;
+  flex: 1;
+  margin-left: 15vw;
 }
