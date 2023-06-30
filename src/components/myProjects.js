@@ -126,6 +126,7 @@ class ProjectCards extends Component {
 
     return (
       <>
+      {/* <div><h2>My Projects</h2></div> */}
       <div className="projects-container">
       <div className="pagination-div"><button
             type="button"

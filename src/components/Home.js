@@ -14,18 +14,22 @@ const Home = () => (
               HI THERE,
               <br />
               I&#39;m
-              <span className="f-name"> Brian</span>
+              <span className="f-name">Brian</span>
               <span className="l-name">Ludidi</span>
               ,
             </b>
             <br />
-            a budding full-stack software developer based in Cape
-            Town, South Africa. Passionate about coding and problem-solving, I&apos;m
-            eager to bring my fresh perspective and enthusiasm to your projects.
+            a budding
+            {' '}
+            <span className="f-name">Full-stack Developer</span>
+            {' '}
+            based in Cape Town, South Africa. Passionate about coding and
+            problem-solving, I&apos;m eager to bring my fresh perspective and
+            enthusiasm to your projects.
             <br />
             <br />
-            Let&apos;s connect and explore how I can contribute to your projects.
-            Looking forward to chatting with you.
+            Let&apos;s connect and explore how I can contribute to your
+            projects. Looking forward to chatting with you.
           </p>
         </div>
         <div className="pics">
