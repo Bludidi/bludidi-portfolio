@@ -14,6 +14,7 @@ const Home = () => (
               HI THERE,
               <br />
               I&#39;m
+              {' '}
               <span className="f-name">Brian</span>
               <span className="l-name">Ludidi</span>
               ,
