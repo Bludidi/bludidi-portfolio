@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import myImage from '../images/ProjectsImages/tdl.png';
 import myImage1 from '../images/ProjectsImages/pc2.png';
 import myImage2 from '../images/ProjectsImages/pc3.png';
+import * as VscIcons from 'react-icons/vsc';
 
 class ProjectCards extends Component {
   constructor(props) {
@@ -133,8 +134,9 @@ class ProjectCards extends Component {
             className="pagination-btn"
             onClick={this.handleClickPrev}
             disabled={currentPage === 1}
+            style={{ marginRight: '1em'}}
           >
-            Prev
+            <VscIcons.VscTriangleLeft size={40} style={{ color: '#b03b83' }} />
           </button>
           </div>
         {currentProjects.map((elem) => (
@@ -163,7 +165,7 @@ class ProjectCards extends Component {
             </div>
             <div className="card-btns-div">
               <button type="button" className="card-btns">
-                LIVE
+                LIVE-DEMO
               </button>
               <button type="button" className="card-btns">
                 SOURCE CODE
@@ -179,8 +181,9 @@ class ProjectCards extends Component {
             disabled={
               currentPage === Math.ceil(myProjects.length / projectsPerPage)
             }
+            style={{ marginLeft: '1em'}}
           >
-            Next
+            <VscIcons.VscTriangleRight size={40} style={{ color: '#b03b83' }} />
           </button>
         </div>
       </div>

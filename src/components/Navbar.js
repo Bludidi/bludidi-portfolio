@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import * as AiIcons from 'react-icons/ai';
 import * as FaIcons from 'react-icons/fa';
+import * as SiIcons from 'react-icons/si';
 import logo from '../images/logo/bludidi3.png';
 import './styles/Navbar.css';
 
@@ -53,6 +54,7 @@ const Navbar = () => (
       <a href="https://github.com/Bludidi" aria-label="GitHub"><FaIcons.FaGithub size={25} className="my-social-icons" /></a>
       <a href="https://twitter.com/@BB_Ludidi" aria-label="Twitter"><FaIcons.FaTwitter size={25} className="my-social-icons" /></a>
       <a href="https://linkedin.com/in/brian-ludidi" aria-label="LinkedIn"><AiIcons.AiOutlineLinkedin size={25} className="my-social-icons" /></a>
+      <a href="mailto:bludidi5@gmail.com" aria-label="Email"><SiIcons.SiGmail size={25} className="my-social-icons" /></a>
     </div>
   </nav>
 );
