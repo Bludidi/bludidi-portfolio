@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 
-html {
+/* html {
   max-width: 1440px;
   margin: 0 auto;
-}
+} */
 
 .logo-img {
   background: url('../../images/bludidi_logo1.png') no-repeat center;
@@ -47,6 +47,7 @@ html {
   width: 80%;
   margin: 2em 0 0 4em;
   padding-right: 2em;
+  color: #fff;
 }
 
 ul {

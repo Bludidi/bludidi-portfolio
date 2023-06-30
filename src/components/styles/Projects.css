@@ -5,58 +5,56 @@
   font-family: 'Poppins', sans-serif;
 }
 
-html {
+/* html {
   max-width: 1440px;
   margin: 0 auto;
-}
+} */
 
 .container {
   background-image: url('../../images/PageImages/bg4.jpg');
   background-size: cover;
   background-repeat: repeat;
+  height: 100vh;
 
   /* height: 90vh; */
 }
 
 .projects-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  margin-bottom: 2em;
-  gap: 4em;
-  padding: 2em;
-
-  /* width: 100vw; */
-
-  /* height: auto; */
+  display: flex;
+  /* grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr); */
+  /* gap: 2em; */
+  padding: 4em 0 0 0;
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
 }
 
 .project-cards {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 30vw;
+  height: 80vh;
   padding: 1em;
-  background: rgba(255, 255, 255, 0.01);
-  box-shadow: 0 0 35px 3px rgba(171, 171, 173, 0.795);
+  margin: 0 2em;
+  font-size: 0.9em;
+  box-shadow: 0 0 9px 1px rgba(171, 171, 173, 0.795);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   border-radius: 4px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-.project-cards:hover {
-  width: 101%;
-  height: 102%;
 }
 
 .card-btns-div {
   display: flex;
   justify-content: center;
   column-gap: 1.2em;
+  margin-top: auto;
 }
 
 .card-btns {
-  width: 10em;
+  width: 50%;
   height: 2.5em;
+  font-size: 0.8em;
   color: #b03b83;
   border: 1px solid #f0f0f06e;
   border-radius: 3px;
@@ -64,14 +62,9 @@ html {
 }
 
 .card-btns:hover {
-  width: 10.2em;
-
-  /* height: 2em; */
   color: #fff;
   background-color: #b03b83;
   box-shadow: 0 0 7px 1px rgba(46, 46, 48, 0.61);
-
-  /* border-radius: 5px; */
   cursor: pointer;
 }
 
@@ -88,23 +81,28 @@ html {
 
 .project-summary {
   color: #fff;
-
-  /* background-color: #252525da; */
+  width: 25vw;
+  MIN-height: 150px;
   padding: 0.6em;
   border-radius: 5px;
   font-weight: 200;
-  font-size: smaller;
+  font-size: 0.9em;
   margin: 1.5em 0 1em 0;
-
-  /* text-align: justify; */
+  border: 1px solid #fff;
 }
 
 .project-image {
-  width: 100%;
-  height: 100%;
+  width: 25vw;
+  height: 30vh;
   margin-top: 1.5em;
 }
 
 a {
   text-decoration: none;
+}
+
+.pagination-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

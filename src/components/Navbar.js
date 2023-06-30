@@ -1,10 +1,14 @@
 import { NavLink } from 'react-router-dom';
 import * as AiIcons from 'react-icons/ai';
 import * as FaIcons from 'react-icons/fa';
+import logo from '../images/logo/bludidi3.png';
 import './styles/Navbar.css';
 
 const Navbar = () => (
   <nav className="navigation">
+    <div className="logo-div">
+      <img src={logo} alt="logo" className="logo" />
+    </div>
     <NavLink
       to="/"
       exact

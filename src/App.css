@@ -1,13 +1,9 @@
-/* .mid-section {
-  background-color: aqua;
-} */
+
 .App {
-  height: 100vh;
   display: flex;
-  flex-direction: row;
 }
 
 .view-port {
-  flex: 1;
-  margin-left: 15vw;
+  overflow-x: scroll;
+  flex-grow: 1;
 }
