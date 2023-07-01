@@ -1,14 +1,11 @@
 import React from 'react';
-import Icons from './icons';
 // import Footer from './footer';
 import './styles/Contact.css';
 
 const Contact = () => (
   <>
     <div className="contact">
-      <Icons />
       <div className="mid-section">
-        <div className="logo-img" />
         <div className="contact-div">
           <h2 className="contactme">CONTACT ME</h2>
           <p className="contact-info">
@@ -50,7 +47,7 @@ const Contact = () => (
             />
 
             <button className="get-intouch btn1" type="submit">
-              Send message
+              Get in touch
             </button>
           </form>
         </div>
