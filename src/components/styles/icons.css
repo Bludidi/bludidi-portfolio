@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -7,6 +7,7 @@
   margin: 0 auto;
 } */
 
+/*
 .socials {
   width: 2em;
   height: 2em;
@@ -27,4 +28,4 @@
   height: 50px;
   column-gap: 2.5em;
   padding-top: 1.6em;
-}
+} */
