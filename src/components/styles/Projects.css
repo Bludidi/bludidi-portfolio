@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background-image: url('../../images/PageImages/bg4.jpg');
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  padding: 4em;
+  color: #fff;
+  margin: 0 auto;
+  background-repeat: repeat;
+}
+
+.projects-container {
+  display: flex;
+  padding: 4em 0 0 0;
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: column;
+  max-width: 30vw;
+  height: 80vh;
+  padding: 1em;
+  margin: 0 2em;
+  font-size: 0.9em;
+  box-shadow: 0 0 9px 1px rgba(171, 171, 173, 0.795);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 4px;
+}
+
+.card-btns-div {
+  display: flex;
+  justify-content: center;
+  column-gap: 1.2em;
+  margin-top: auto;
+}
+
+.card-btns {
+  width: 50%;
+  height: 2.5em;
+  font-size: 0.8em;
+  color: #b03b83;
+  border: 1px solid #f0f0f06e;
+  border-radius: 3px;
+  box-shadow: 0 0 7px 1px rgba(46, 46, 48, 0.61);
+}
+
+.card-btns:hover {
+  color: #fff;
+  background-color: #b03b83;
+  box-shadow: 0 0 7px 1px rgba(46, 46, 48, 0.61);
+  cursor: pointer;
+}
+
+.card-header {
+  color: #b03b83;
+}
+
+.project-number {
+  color: #fff;
+  background-color: #b03b83;
+  padding-left: 0.5em;
+  margin-top: 1em;
+}
+
+.project-summary {
+  color: #fff;
+  width: 25vw;
+  min-height: 150px;
+  padding: 0.6em;
+  border-radius: 5px;
+  font-weight: 200;
+  font-size: 0.9em;
+  margin: 1.5em 0 1em 0;
+  border: 1px solid #fff;
+}
+
+.project-image {
+  width: 25vw;
+  height: 30vh;
+  margin-top: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pagination-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.pagination-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination-btn:hover {
+  width: 52px;
+  height: 52px;
+}
