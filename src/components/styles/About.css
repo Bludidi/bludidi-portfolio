@@ -1,11 +1,58 @@
 .about {
-  background-color: aquamarine;
+  background-image: url('../../images/PageImages/bg4.jpg');
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  padding: 4em;
+  color: #fff;
+  margin: 0 auto;
+  background-repeat: repeat;
 }
 
-.logo-img {
-  background: url("../../images/bludidi_logo1.png") no-repeat center;
-  background-size: contain;
-  width: 15%;
-  /* height: 5vh; */
-  margin-top: 0;
+.about-text {
+  width: 80vw;
+  padding: 2em;
+  background-color: rgba(255, 255, 255, 0.15);
+  text-align: justify;
+}
+
+.line {
+  width: 80vw;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.head-icon {
+  margin: 0;
+}
+
+.skills-div {
+  display: flex;
+  width: 80vw;
+  justify-content: space-around;
+  padding: 0 0.5em;
+  font-size: 0.8em;
+}
+
+.skills-card {
+  border: 0.1px solid rgba(255, 255, 255, 0.223);
+  padding: 0 0.5em;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.sub-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+li {
+  list-style: square;
+  line-height: 25px;
 }

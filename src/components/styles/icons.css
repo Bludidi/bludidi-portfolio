@@ -1,12 +1,13 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
-html {
+/* html {
   max-width: 1440px;
   margin: 0 auto;
-}
+} */
 
+/*
 .socials {
   width: 2em;
   height: 2em;
@@ -27,5 +28,4 @@ html {
   height: 50px;
   column-gap: 2.5em;
   padding-top: 1.6em;
-
-}
+} */
