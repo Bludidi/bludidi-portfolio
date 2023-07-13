@@ -1,4 +1,5 @@
 import React from 'react';
+import * as AiIcons from 'react-icons/ai';
 // import Footer from './footer';
 import './styles/Contact.css';
 
@@ -6,15 +7,26 @@ const Contact = () => (
   <>
     <div className="contact">
       <div className="mid-section">
+        <div className="banner">
+          <AiIcons.AiOutlineMail size={40} className="head-icon" />
+          <h2>Connect with me</h2>
+        </div>
+        <div className="line">
+          <hr />
+        </div>
+        <br />
+        <br />
         <div className="contact-div">
-          <h2 className="contactme">CONTACT ME</h2>
           <p className="contact-info">
-            If you have an application you are interested in developing,
-            <br />
-            a feature that you need built or a project that needs coding,
-            <br />
-            simple slide a message below.
+            If you have an application you&apos;re eager to develop, a specific
+            feature that requires expert implementation, or a coding project
+            that needs attention, don&apos;t hesitate to drop a message below.
+            I&apos;m here to bring your ideas to life and provide top-notch
+            coding solutions tailored to your needs. Reach out now and
+            let&apos;s discuss how can I help turn your vision into reality.
           </p>
+        </div>
+        <div>
           <form
             action="https://formspree.io/f/xoqbekvb"
             method="POST"
@@ -24,7 +36,7 @@ const Contact = () => (
             <input
               className="contact_input one_line italic-placeholder"
               type="text"
-              placeholder="Your name"
+              placeholder="Your name here"
               name="Name"
               maxLength="30"
               required
@@ -33,7 +45,7 @@ const Contact = () => (
             <input
               className="contact_input one_line italic-placeholder"
               type="email"
-              placeholder="Enter your email"
+              placeholder="Your email here"
               name="Email"
               required
             />
@@ -47,7 +59,7 @@ const Contact = () => (
             />
 
             <button className="get-intouch btn1" type="submit">
-              Get in touch
+              SEND MESSAGE
             </button>
           </form>
         </div>

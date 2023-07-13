@@ -20,7 +20,7 @@ const Navbar = () => (
       <span className="nav-link-name">HOME</span>
     </NavLink>
     <NavLink
-      to="/Projects"
+      to="/projects"
       className="d-flex nav-text link"
       activeClassName="active"
     >

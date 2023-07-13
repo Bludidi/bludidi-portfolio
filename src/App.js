@@ -8,12 +8,12 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 
-function App() {
-  return (
-      <div className="App">
+const App = () => (
+  <>
+      <div className="app">
         <Navbar />
         <div className="view-port">
-          <Routes>
+          <Routes className="view-port">
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/about" element={<About />} />
@@ -21,7 +21,7 @@ function App() {
           </Routes>
         </div>
       </div>
-  );
-}
+  </>
+)
 
 export default App;

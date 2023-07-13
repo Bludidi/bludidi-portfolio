@@ -1,9 +1,9 @@
 
-.App {
+.app {
   display: flex;
 }
 
-.view-port {
+/* .view-port {
   overflow-x: scroll;
   flex-grow: 1;
-}
+} */

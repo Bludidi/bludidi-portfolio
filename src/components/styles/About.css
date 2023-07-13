@@ -15,7 +15,6 @@
 .about-text {
   width: 80vw;
   padding: 2em;
-  /* border: 1px solid #fff; */
   background-color: rgba(255, 255, 255, 0.15);
   text-align: justify;
 }
