@@ -21,9 +21,9 @@ class ProjectCards extends Component {
           summary:
             'This app helps users to keep track of daily tasks. Users are able to add, edit and remove tasks.',
           fullDescription: '',
-          techAndTools: [],
-          liveLink: '',
-          sourceLink: '',
+          techAndTools: ['JavaScript',' • ', 'CSS',' • ', 'Webpack',' • ', 'Git',' • ', 'Html',' • ', 'VS Code'],
+          liveLink: 'https://my-to-do-nine.vercel.app/',
+          sourceLink: 'https://github.com/Bludidi/My-To-Do',
           complexity: '',
         },
         {
@@ -32,65 +32,55 @@ class ProjectCards extends Component {
           affiliation: 'Microverse project',
           image: myImage1,
           summary:
-            'CRYPTO HOME is a web based app built with React-Redux and is using CoinApp API to give data about crypto currencies.',
+            'Crypto Home is a web based app that display the top ten crypto currencies based on their value.\
+            It uses data from Coin Base API and render it for users who visit the site.',
           fullDescription: '',
-          techAndTools: [],
-          liveLink: '',
-          sourceLink: '',
+          techAndTools: ['React',' • ','Redux',' • ','API',' • ','CSS',' • ',' •', 'Git',' • ', 'Html',' • ','VS Code'],
+          liveLink: 'https://crypto-home.vercel.app/',
+          sourceLink: 'https://github.com/Bludidi/crypto-home',
           complexity: '',
         },
         {
           id: 3,
-          name: "Leaderboard",
+          name: 'Leaderboard',
           affiliation: 'Microverse project',
           image: myImage2,
           summary:
-            "Space Traveller's is a website where a user can reserve a rocket or dragon, they can also join missions. All of the data present in the site is from SpaceX API.",
+            "Leaderboard is a web app the uses API to store user's names and scores.\
+             Users are able to update their score with these beautiful UI.",
           fullDescription: '',
-          techAndTools: [],
-          liveLink: '',
-          sourceLink: '',
+          techAndTools: ['JavaScript',' • ','Webpack',' • ','CSS',' • ','Jest', ' • ', 'Git',' • ', 'VS Code'],
+          liveLink: 'https://rad-dolphin-326202.netlify.app/',
+          sourceLink: 'https://github.com/Bludidi/Leaderboard',
           complexity: '',
         },
         {
           id: 4,
-          name: 'To-Do List',
+          name: 'iBudget',
           affiliation: 'Microverse project',
-          image: myImage,
+          image: myImage3,
           summary:
-            'This app helps users to keep track of daily tasks. Users are able to add, edit and remove tasks.',
+            'iBudget is a web based app that helps users to track the money they spent or they have to spent.\
+            A user must sign up and login to create categories of items they buy the app will do the calculations.',
           fullDescription: '',
-          techAndTools: [],
+          techAndTools: ['Ruby',' • ', 'Rails',' • ', 'Git',' • ', 'VS Code',' • ','PostgreSQL'],
           liveLink: '',
-          sourceLink: '',
+          sourceLink: 'https://github.com/Bludidi/iBudget',
           complexity: '',
         },
-        {
-          id: 5,
-          name: 'CRYPTO HOME',
-          affiliation: 'Microverse project',
-          image: myImage1,
-          summary:
-            'CRYPTO HOME is a web based app built with React-Redux and is using CoinApp API to give data about crypto currencies.',
-          fullDescription: '',
-          techAndTools: [],
-          liveLink: '',
-          sourceLink: '',
-          complexity: '',
-        },
-        {
-          id: 6,
-          name: "Space Traveller's Hub",
-          affiliation: 'Microverse project',
-          image: myImage2,
-          summary:
-            "Space Traveller's is a website where a user can reserve a rocket or dragon, they can also join missions. All of the data present in the site is from SpaceX API.",
-          fullDescription: '',
-          techAndTools: [],
-          liveLink: '',
-          sourceLink: '',
-          complexity: '',
-        },
+        // {
+        //   id: 5,
+        //   name: "Space Traveller's Hub",
+        //   affiliation: 'Microverse project',
+        //   image: myImage2,
+        //   summary:
+        //     "Space Traveller's is a website where a user can reserve a rocket or dragon, they can also join missions. All of the data present in the site is from SpaceX API.",
+        //   fullDescription: '',
+        //   techAndTools: ['Javascript',' • ', 'React',' • ', 'Redux',' • ', 'API',' • ', 'Git',' • ', 'VS Code'],
+        //   liveLink: '',
+        //   sourceLink: '',
+        //   complexity: '',
+        // },
       ],
       currentPage: 1,
       projectsPerPage: 2,
@@ -128,66 +118,75 @@ class ProjectCards extends Component {
 
     return (
       <>
-      {/* <div><h2>My Projects</h2></div> */}
-      <div className="projects-container">
-      <div className="pagination-div"><button
-            type="button"
-            className="pagination-btn"
-            onClick={this.handleClickPrev}
-            disabled={currentPage === 1}
-            style={{ marginRight: '1em'}}
-          >
-            <VscIcons.VscTriangleLeft size={40} style={{ color: '#b03b83' }} />
-          </button>
+        {/* <div><h2>My Projects</h2></div> */}
+        <div className="projects-container">
+          <div className="pagination-div">
+            <button
+              type="button"
+              className="pagination-btn"
+              onClick={this.handleClickPrev}
+              disabled={currentPage === 1}
+              style={{ marginRight: '1em' }}
+            >
+              <VscIcons.VscTriangleLeft
+                size={40}
+                style={{ color: '#b03b83' }}
+              />
+            </button>
           </div>
-        {currentProjects.map((elem) => (
-          <div key={elem.id} className="project-cards">
-            <a href="#">
-              <div className="project-number">
-                {elem.id}
-                .&nbsp;
-                {elem.name}
-              </div>
-            </a>
-            <div>
-              <div className="project-image">
+          {currentProjects.map((elem) => (
+            <div key={elem.id} className="project-cards">
+              <a href="#">
+                <div className="project-number">
+                  {elem.id}
+                  .&nbsp;
+                  {elem.name}
+                </div>
+              </a>
+              <div>
+                <div className="project-image">
                   <img
                     src={elem.image}
                     alt={elem.name}
                     style={{ width: '100%' }}
                   />
+                </div>
+                <div className="project-summary">
+                  <span>
+                    <b>SUMMARY:</b>
+                  </span>
+                  <p>{elem.summary}</p>
+                    <b>BUILT WITH:</b>
+                  <p>{elem.techAndTools}</p>
+                </div>
               </div>
-              <div className="project-summary">
-                <span>
-                  <b>DESCRIPTION:</b>
-                </span>
-                <p>{elem.summary}</p>
+              <div className="card-btns-div">
+                <button type="button" className="card-btns" onClick={() => window.open(elem.liveLink, '_blank')}>
+                  LIVE-DEMO
+                </button>
+                <button type="button" className="card-btns" onClick={() => window.open(elem.sourceLink, '_blank')}>
+                  SOURCE CODE
+                </button>
               </div>
             </div>
-            <div className="card-btns-div">
-              <button type="button" className="card-btns">
-                LIVE-DEMO
-              </button>
-              <button type="button" className="card-btns">
-                SOURCE CODE
-              </button>
-            </div>
+          ))}
+          <div className="pagination-div">
+            <button
+              type="button"
+              className="pagination-btn"
+              onClick={this.handleClickNext}
+              disabled={
+                currentPage === Math.ceil(myProjects.length / projectsPerPage)
+              }
+              style={{ marginLeft: '1em' }}
+            >
+              <VscIcons.VscTriangleRight
+                size={40}
+                style={{ color: '#b03b83' }}
+              />
+            </button>
           </div>
-        ))}
-        <div className="pagination-div">
-          <button
-            type="button"
-            className="pagination-btn"
-            onClick={this.handleClickNext}
-            disabled={
-              currentPage === Math.ceil(myProjects.length / projectsPerPage)
-            }
-            style={{ marginLeft: '1em'}}
-          >
-            <VscIcons.VscTriangleRight size={40} style={{ color: '#b03b83' }} />
-          </button>
         </div>
-      </div>
       </>
     );
   }
