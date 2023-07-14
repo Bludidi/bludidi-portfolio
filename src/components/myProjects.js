@@ -64,7 +64,7 @@ class ProjectCards extends Component {
             A user must sign up and login to create categories of items they buy the app will do the calculations.',
           fullDescription: '',
           techAndTools: ['Ruby',' • ', 'Rails',' • ', 'Git',' • ', 'VS Code',' • ','PostgreSQL'],
-          liveLink: '',
+          liveLink: 'https://www.loom.com/share/14ce0b6d10954ef785049182e81a18d6?sid=f64d0071-6292-4e91-bd4b-c229abb64542',
           sourceLink: 'https://github.com/Bludidi/iBudget',
           complexity: '',
         },
