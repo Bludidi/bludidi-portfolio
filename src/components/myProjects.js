@@ -1,9 +1,10 @@
 /* eslint-disable */
 
 import React, { Component } from 'react';
-import myImage from '../images/ProjectsImages/tdl.png';
-import myImage1 from '../images/ProjectsImages/pc2.png';
-import myImage2 from '../images/ProjectsImages/pc3.png';
+import myImage from '../images/ProjectsImages/TODO.png';
+import myImage1 from '../images/ProjectsImages/crypto_home.png';
+import myImage2 from '../images/ProjectsImages/leaderboard.png';
+import myImage3 from '../images/ProjectsImages/iBudget.png';
 import * as VscIcons from 'react-icons/vsc';
 
 class ProjectCards extends Component {
@@ -40,7 +41,7 @@ class ProjectCards extends Component {
         },
         {
           id: 3,
-          name: "Space Traveller's Hub",
+          name: "Leaderboard",
           affiliation: 'Microverse project',
           image: myImage2,
           summary:
