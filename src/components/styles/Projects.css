@@ -23,14 +23,12 @@
   padding: 4em 0 0 0;
   margin: 0 auto;
   width: 80%;
-  height: 100vh;
 }
 
 .project-cards {
   display: flex;
   flex-direction: column;
   max-width: 30vw;
-  height: 80vh;
   padding: 1em;
   margin: 0 2em;
   font-size: 0.9em;
@@ -89,7 +87,6 @@
 
 .project-image {
   width: 25vw;
-  height: 30vh;
   margin-top: 1.5em;
 }
 
