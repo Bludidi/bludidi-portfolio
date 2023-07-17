@@ -27,15 +27,17 @@ const About = () => (
           skills in
           {' '}
           <span className="f-name">
-            time management, communication, planning, organization, and
-            attention to detail
+            <b>
+              time management, communication, planning, organization, and
+              attention to detail
+            </b>
           </span>
           {' '}
           to facilitate smooth learning and adaptation.
           Throughout the curriculum, I have constructed numerous web
           applications using
           {' '}
-          <span className="f-name">JavaScript, React, Redux, Ruby, and Ruby on Rails</span>
+          <span className="f-name"><b>JavaScript, React, Redux, Ruby, and Ruby on Rails</b></span>
           .
           My GitHub showcases these projects in detail.
           <br />
@@ -47,8 +49,10 @@ const About = () => (
           Certified in
           {' '}
           <span className="f-name">
-            HTML/CSS, JavaScript, React & Redux, Ruby and Databases,
-            Ruby on Rails
+            <b>
+              HTML/CSS, JavaScript, React & Redux, Ruby and Databases,
+              Ruby on Rails
+            </b>
           </span>
           , and Full Stack Capstone, I distinguish myself through
           my proactive adherence to ethics and best practices, dynamic team
@@ -59,7 +63,7 @@ const About = () => (
           I am open to opportunities, collaborations, or projects where my
           skills and expertise can contribute to organizational success. Please
           don&apos;t hesitate to reach out to me at&nbsp;
-          <a href="mailto:bludidi5@gmail.com" aria-label="Email"><span className="f-name">Bludidi5@gmail.com</span></a>
+          <a href="mailto:bludidi5@gmail.com" aria-label="Email"><span className="f-name"><b>Bludidi5@gmail.com</b></span></a>
           . I am excited to connect with like-minded
           professionals and explore new possibilities.
         </p>

@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-.logo-img {
-  background: url('../../images/bludidi_logo1.png') no-repeat center;
-  background-size: cover;
-  margin: 0 100px 0;
-}
-
 .home {
   background-image: url('../../images/PageImages/bg4.jpg');
   background-size: cover;
@@ -25,19 +19,26 @@
 
 .banner {
   color: #fff;
+  font-size: 1.5rem;
 }
 
 .f-name {
+  color: #b03b83;
+  font-size: 1.1rem;
+}
+
+.name {
+  font-weight: 900;
   color: #b03b83;
 }
 
 .l-name {
   color: #b03b83;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .bold {
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 .home-text {

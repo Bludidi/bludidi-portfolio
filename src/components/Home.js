@@ -26,14 +26,13 @@ const Home = () => (
               <br />
               I&#39;m
               {' '}
-              <span className="f-name">Brian</span>
+              <span className="name">Brian &nbsp;</span>
               <span className="l-name">Ludidi</span>
-              ,
             </b>
             <br />
             a budding
             {' '}
-            <span className="f-name">Full-stack Developer</span>
+            <span className="f-name"><b>Full-stack Developer</b></span>
             {' '}
             based in Cape Town, South Africa. Passionate about coding and
             problem-solving, I&apos;m eager to bring my fresh perspective and

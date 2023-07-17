@@ -21,7 +21,7 @@ class ProjectCards extends Component {
           summary:
             'This app helps users to keep track of daily tasks. Users are able to add, edit and remove tasks.',
           fullDescription: '',
-          techAndTools: ['JavaScript',' • ', 'CSS',' • ', 'Webpack',' • ', 'Git',' • ', 'Html',' • ', 'VS Code'],
+          techAndTools: ['JavaScript',' • ', 'CSS',' • ', 'Webpack',' • ', 'Git',' • ', 'HTML',' • ', 'VS Code'],
           liveLink: 'https://my-to-do-nine.vercel.app/',
           sourceLink: 'https://github.com/Bludidi/My-To-Do',
           complexity: '',
@@ -35,7 +35,7 @@ class ProjectCards extends Component {
             'Crypto Home is a web based app that display the top ten crypto currencies based on their value.\
             It uses data from Coin Base API and render it for users who visit the site.',
           fullDescription: '',
-          techAndTools: ['React',' • ','Redux',' • ','API',' • ','CSS',' • ',' •', 'Git',' • ', 'Html',' • ','VS Code'],
+          techAndTools: ['React',' • ','Redux',' • ','API',' • ','CSS',' • ', 'Git',' • ', 'HTML',' • ','VS Code'],
           liveLink: 'https://crypto-home.vercel.app/',
           sourceLink: 'https://github.com/Bludidi/crypto-home',
           complexity: '',
