@@ -2,7 +2,7 @@ import React from 'react';
 import * as GiArchiveIcon from 'react-icons/gi';
 import * as FaIcons from 'react-icons/fa';
 import * as BsIcons from 'react-icons/bs';
-import { MdBuild } from 'react-icons/md';
+// import { MdBuild } from 'react-icons/md';
 import './styles/About.css';
 
 const About = () => (
@@ -81,6 +81,70 @@ const About = () => (
       <div className="skills-div">
         <div className="skills-card">
           <div className="sub-header">
+            <FaIcons.FaDesktop size={25} />
+            <h3>Front-end</h3>
+          </div>
+          <ul>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>Bootstrap</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Webpack</li>
+            <li>Jest</li>
+          </ul>
+        </div>
+        <div className="skills-card">
+          <div className="sub-header">
+            <FaIcons.FaServer size={25} />
+            <h3>Back-end</h3>
+          </div>
+          <ul>
+            <li>Ruby</li>
+            <li>Rails</li>
+            <li>Ruby on Rails</li>
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+            <li>API&apos;s (RESTful)</li>
+            <li>RSpec</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+        <div className="skills-card">
+          <div className="sub-header">
+            <FaIcons.FaTools />
+            <h3>Tools</h3>
+          </div>
+          <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Bash</li>
+            <li>VS Code</li>
+            <li>Postman</li>
+            <li>Canva</li>
+            <li>Postman</li>
+            <li>Figma</li>
+            <li>Vercel</li>
+            <li>Heroku</li>
+          </ul>
+        </div>
+        <div className="skills-card">
+          <div className="sub-header">
+            <FaIcons.FaBook />
+            <h3>Industry Knowledge</h3>
+          </div>
+          <ul>
+            <li>User Interface design</li>
+            <li>Pair programming</li>
+            <li>Programming best practices</li>
+            <li>Development best practices</li>
+            <li>Responsive web development</li>
+            <li>Object Oriented Programming</li>
+          </ul>
+        </div>
+        <div className="skills-card">
+          <div className="sub-header">
             <BsIcons.BsPersonLinesFill size={25} />
             <h3>Interpersonal Skills</h3>
           </div>
@@ -92,36 +156,6 @@ const About = () => (
             <li>Project management</li>
             <li>Problem Solving</li>
             <li>Leadership</li>
-          </ul>
-        </div>
-        <div className="skills-card">
-          <div className="sub-header">
-            <FaIcons.FaBook />
-            <h3>Industry Knowledge</h3>
-          </div>
-          <ul>
-            <li>Front end development</li>
-            <li>Back end development</li>
-            <li>User Interface design</li>
-            <li>Pair programming</li>
-            <li>Programming best practices</li>
-            <li>Development best practices</li>
-            <li>Responsive web development</li>
-            <li>Object Oriented Programming</li>
-          </ul>
-        </div>
-        <div className="skills-card">
-          <div className="sub-header">
-            <MdBuild />
-            <h3>Tools & Technologies</h3>
-          </div>
-          <ul>
-            <li>Ruby on Rails (Back-end)</li>
-            <li>React & Redux</li>
-            <li>PostgreSQL</li>
-            <li>CSS, SCSS & Bootstrap</li>
-            <li>Git</li>
-            <li>Node.js</li>
           </ul>
         </div>
       </div>
