@@ -123,7 +123,6 @@ const About = () => (
             <li>VS Code</li>
             <li>Postman</li>
             <li>Canva</li>
-            <li>Postman</li>
             <li>Figma</li>
             <li>Vercel</li>
             <li>Heroku</li>

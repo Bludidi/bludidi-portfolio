@@ -5,6 +5,7 @@ import myImage from '../images/ProjectsImages/TODO.png';
 import myImage1 from '../images/ProjectsImages/crypto_home.png';
 import myImage2 from '../images/ProjectsImages/leaderboard.png';
 import myImage3 from '../images/ProjectsImages/iBudget.png';
+import myImage4 from '../images/ProjectsImages/mm2.png'
 import * as VscIcons from 'react-icons/vsc';
 
 class ProjectCards extends Component {
@@ -68,19 +69,19 @@ class ProjectCards extends Component {
           sourceLink: 'https://github.com/Bludidi/iBudget',
           complexity: '',
         },
-        // {
-        //   id: 5,
-        //   name: "Space Traveller's Hub",
-        //   affiliation: 'Microverse project',
-        //   image: myImage2,
-        //   summary:
-        //     "Space Traveller's is a website where a user can reserve a rocket or dragon, they can also join missions. All of the data present in the site is from SpaceX API.",
-        //   fullDescription: '',
-        //   techAndTools: ['Javascript',' • ', 'React',' • ', 'Redux',' • ', 'API',' • ', 'Git',' • ', 'VS Code'],
-        //   liveLink: '',
-        //   sourceLink: '',
-        //   complexity: '',
-        // },
+        {
+          id: 5,
+          name: "Math Magicians",
+          affiliation: 'Microverse project',
+          image: myImage4,
+          summary:
+            "Math Magicians is a simple web app which has a calculator that performs basic arithmetic calculations and also displays quotes from the Ninja API.",
+          fullDescription: '',
+          techAndTools: ['Javascript',' • ', 'React',' • ', 'API',' • ', 'Git',' • ', 'VS Code'],
+          liveLink: 'https://bludidi-math-app.netlify.app/',
+          sourceLink: 'https://github.com/Bludidi/math-app',
+          complexity: '',
+        },
       ],
       currentPage: 1,
       projectsPerPage: 2,
