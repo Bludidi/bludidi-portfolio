@@ -8,7 +8,7 @@ import profilePic2 from '../images/profile-images/bl-profile-color-nb.png';
 
 const Home = () => (
   <>
-    <div className="home">
+    <section id="home" className="home container-div">
       <div className="banner">
         <AiIcons.AiOutlineUser size={40} className="head-icon" />
         <h2>Welcome to Brian&apos;s Portfolio</h2>
@@ -48,7 +48,7 @@ const Home = () => (
           <img src={profilePic2} alt="profile" className="pic2" />
         </div>
       </div>
-    </div>
+    </section>
   </>
 );
 

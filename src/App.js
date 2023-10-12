@@ -4,24 +4,23 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import MobNav from './components/mobile_nav';
+import './App.css';
 
 const App = () => (
   <>
     <div className="app">
-      <Navbar />
+      <MobNav />
       <div className="view-port">
-        <section id="home">
+        <div className="nav-wrapper vp-content">
+          <Navbar />
+        </div>
+        <div className="content-wrapper vp-content">
           <Home />
-        </section>
-        <section id="projects">
           <Projects />
-        </section>
-        <section id="about">
           <About />
-        </section>
-        <section id="contact">
           <Contact />
-        </section>
+        </div>
       </div>
     </div>
   </>

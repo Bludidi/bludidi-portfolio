@@ -5,7 +5,7 @@ import './styles/Contact.css';
 
 const Contact = () => (
   <>
-    <div className="contact">
+    <section id="contact" className="contact container-div">
       <div className="mid-section">
         <div className="banner">
           <AiIcons.AiOutlineMail size={40} className="head-icon" />
@@ -39,6 +39,7 @@ const Contact = () => (
               placeholder="Your name here"
               name="Name"
               maxLength="30"
+              autoComplete="on"
               required
             />
 
@@ -47,6 +48,7 @@ const Contact = () => (
               type="email"
               placeholder="Your email here"
               name="Email"
+              autoComplete="on"
               required
             />
 
@@ -64,7 +66,7 @@ const Contact = () => (
           </form>
         </div>
       </div>
-    </div>
+    </section>
     {/* <Footer /> */}
   </>
 );

@@ -118,7 +118,7 @@ class ProjectCards extends Component {
     );
 
     return (
-      <>
+      <section className="projects-wrapper">
         <div className="projects-container">
           <div className="pagination-div">
             <button
@@ -187,7 +187,7 @@ class ProjectCards extends Component {
             </button>
           </div>
         </div>
-      </>
+      </section>
     );
   }
 }

@@ -5,7 +5,7 @@ import './styles/Projects.css';
 
 const Projects = () => (
   <>
-    <div className="container">
+    <section id="projects" className="projects container-div">
       <div className="banner">
         <FaIcons.FaRegFolderOpen size={40} className="head-icon" />
         <h2>Portfolio</h2>
@@ -16,7 +16,7 @@ const Projects = () => (
       <br />
       <br />
       <ProjectCards />
-    </div>
+    </section>
   </>
 );
 

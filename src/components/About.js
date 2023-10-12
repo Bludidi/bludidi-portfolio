@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import * as GiArchiveIcon from 'react-icons/gi';
 import * as FaIcons from 'react-icons/fa';
 import * as BsIcons from 'react-icons/bs';
@@ -7,7 +7,7 @@ import './styles/About.css';
 
 const About = () => (
   <>
-    <div className="mid-section about">
+    <section id="about" className="mid-section about container-div">
       <div className="banner">
         <GiArchiveIcon.GiArchiveResearch size={40} className="head-icon" />
         <h2>About Brian</h2>
@@ -159,7 +159,7 @@ const About = () => (
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   </>
 );
 
